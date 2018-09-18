@@ -6,36 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        /*div {
-            color: blue
-        }*/
-        /* .primer-div {
-            color: rgb(0, 0, 255);
-        }
-        .diferente {
-            color: green;
-        } */
-        /* Pseudo elemento, le meto efectos */
-        /* a:hover{
-            color: red;
-            cursor: progress;
-        } */
-    </style>
 </head>
 
 <body>
-    <form action="https://www.google.com.co/search" method="GET">
-        <label for="user">Usuario</label>
-        <input id="user" type="text" placeholder="Ingrese su nombre" name="q">
-        <br>
-        <label for="pass">Password</label>
-        <input id="pass" type="password" placeholder="Ingrese su password" name="">
-        <button type="submit">Abrir</button>
-        <br>
-        <input type="number">
-        <button type="reset">Restaurar</button>
-    </form>
+    <table border="1">
+        <thead>
+            <th>Uno</th>
+            <th>Dos</th>
+            <th>Tres</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
